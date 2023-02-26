@@ -5,7 +5,7 @@ export const accountApi: any = createApi({
   reducerPath: "accountApi",
 
   baseQuery: fetchBaseQuery({
-    baseUrl: "http://127.0.0.1:8000/",
+    baseUrl: "https://szkiublog-8-w3212220.deta.app/",
   }),
 
   endpoints: (builder) => ({

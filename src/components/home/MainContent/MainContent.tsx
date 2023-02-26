@@ -23,7 +23,7 @@ function MainContent() {
   });
 
   useEffect(() => {
-    fetch("http://127.0.0.1:8000/blogslen").then(res => res.json()).then(res => {
+    fetch("https://szkiublog-8-w3212220.deta.app/blogslen").then(res => res.json()).then(res => {
       setLen(res);
     })
   }, [])
