@@ -54,7 +54,7 @@ function Login() {
 
           onSubmit={async ({ email, password }) => {
             const fetchDataJson = await fetch(
-              `http://127.0.0.1:8000/account/login?email=${email}&password=${password}`
+              `https://szkiublog-8-w3212220.deta.app/account/login?email=${email}&password=${password}`
             );
             const fetchData = await fetchDataJson.json();
 
